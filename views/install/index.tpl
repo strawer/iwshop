@@ -137,11 +137,11 @@
                 </div>
             </div>
             <div class="field">
-                <div class="gs-label">通加密串(partnerKey)
+                <div class="gs-label">商户通讯加密串(partnerKey)
                     <div class="gs-tip1"></div>
                 </div>
                 <div class="gs-text"><input title="" name="f-partnerkey" class="required" tabindex="6" type="text"/>
-                    <div class="gs-tip">商户通加密串(partnerKey)，在微信商户平台中API秘钥设置中设置</div>
+                    <div class="gs-tip">商户通讯加密串(partnerKey)，在微信商户平台中API秘钥设置中设置</div>
                 </div>
             </div>
             <div class="field">
