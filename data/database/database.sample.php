@@ -13,15 +13,15 @@ return [
     // 数据库类型
     'type'            => 'mysql',
     // 服务器地址
-    'hostname'        => '127.0.0.1',
+    'hostname'        => '__HOSTNAME__',
     // 数据库名
-    'database'        => '',
+    'database'        => '__DATABASE__',
     // 用户名
-    'username'        => 'root',
+    'username'        => '__USERNAME__',
     // 密码
-    'password'        => '',
+    'password'        => '__PASSWORD__',
     // 端口
-    'hostport'        => '',
+    'hostport'        => '__HOSTPORT__',
     // 连接dsn
     'dsn'             => '',
     // 数据库连接参数
@@ -43,7 +43,7 @@ return [
     // 是否严格检查字段是否存在
     'fields_strict'   => true,
     // 数据集返回类型
-    'resultset_type'  => 'array',
+    'resultset_type'  => 'collection',
     // 自动写入时间戳字段
     'auto_timestamp'  => false,
     // 时间字段取出后的默认时间格式
